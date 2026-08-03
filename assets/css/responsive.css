@@ -1,0 +1,35 @@
+@media (max-width: 1024px) {
+    .hero-grid, .about-grid, .contact-grid, .dual-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    .hero-image-wrapper {
+        order: -1;
+    }
+    .projects-grid, .certs-grid, .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .skills-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none; /* Add mobile toggle script if needed, or keep clean stack */
+    }
+    .hero-content h1 {
+        font-size: 40px;
+    }
+    .projects-grid, .certs-grid, .services-grid {
+        grid-template-columns: 1fr;
+    }
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+    .footer-content {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+}
