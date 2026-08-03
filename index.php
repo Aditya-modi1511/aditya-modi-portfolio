@@ -58,10 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_submit'])) {
 
     <header>
         <div class="nav-container">
-            <a href="#home" class="logo">
-                <img src="assets/images/logo.svg" alt="Aditya logo" class="site-logo">
-                <span class="logo-text">Aditya</span>
-            </a>
+            <a href="#home" class="logo">Aditya<span>.</span></a>
             <ul class="nav-menu">
                 <li><a href="#home" class="nav-link active">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
@@ -201,7 +198,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_submit'])) {
                     <span class="expertise-tag">HTML5</span>
                     <span class="expertise-tag">CSS3</span>
                     <span class="expertise-tag">JavaScript</span>
-                        <span class="expertise-tag">Python</span>
                     <span class="expertise-tag">PHP</span>
                     <span class="expertise-tag">MySQL</span>
                     <span class="expertise-tag">C</span>
@@ -395,10 +391,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_submit'])) {
 
     <footer>
         <div class="footer-content">
-            <a href="#home" class="logo">
-                <img src="assets/images/logo.svg" alt="Aditya logo" class="site-logo">
-                <span class="logo-text">Aditya</span>
-            </a>
+            <a href="#home" class="logo">Aditya<span>.</span></a>
             <p style="color: var(--text-secondary); font-size: 14px;">© 2026 Aditya Alkeshkumar Modi. Designed & built with passion.</p>
             <div class="footer-socials">
                 <a href="https://github.com/Aditya-modi1511" target="_blank" class="social-icon-btn"><i class="fa-brands fa-github"></i></a>

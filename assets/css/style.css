@@ -105,26 +105,15 @@ header.scrolled {
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 20px;
+    font-size: 26px;
     font-weight: 700;
     color: var(--text-main);
     text-decoration: none;
     letter-spacing: 1px;
 }
 
-.site-logo {
-    width: 44px;
-    height: 44px;
-    display: block;
-}
-
-.logo-text {
-    color: var(--text-main);
-    font-weight: 700;
-    font-size: 18px;
+.logo span {
+    color: var(--secondary);
 }
 
 .nav-menu {
